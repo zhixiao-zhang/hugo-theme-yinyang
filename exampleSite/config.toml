@@ -4,10 +4,6 @@ title = "Example YinYong Blog"
 theme = "yinyang"
 DefaultContentLanguage = "en"
 
-[author]
-  name = "Joway Wang"
-  homepage = "https://joway.io/"
-
 [languages]
   [languages.en]
     contentDir = "content/en"
@@ -18,15 +14,26 @@ DefaultContentLanguage = "en"
     languageName = "Chinese"
     weight = 1
 
+[menus]
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+[[menus.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 3
+
 [params]
 disqus = "joway" # disqus account name
 extraHead = ''
 mainSections = ["posts"]
+author = "Yinyang"
 
 [[params.socials]]
 name = "RSS"
 link = "/index.xml"
-
-[[params.socials]]
-name = "About"
-link = "https://joway.io"
