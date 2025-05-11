@@ -261,6 +261,9 @@ a:hover {
   background: white;
 }
 
+ruby { font-size: 1.1em; }
+rt { font-size: 0.8em; }
+
 @media screen and (max-width: 600px) {
   .header-title,
   .header-subtitle,
